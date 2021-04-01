@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>chatbot</title>
+        <style>
+            mark { 
+                background-color: rgb(154, 7, 252);
+                color: yellow;
+                }
+            div {
+                background-image: url(picture.jpg);
+                background-position:right;
+                border: 5px solid #5f6603;
+                width: 100mw;
+                height: 100vh;
+                }
+        </style>
+    </head>
+    <body>
+        <div>
+            <font color="pink">
+              <img src="PicsArt_02-07-12.44.20.png" display="inline-block">
+                <center>
+                    <font size="+10">Project sample</font></span>
+                    <br><br>
+                    <p style="font-size:200%;">JET Customer Care </p>
+                <p style="text-align:centre; font-size:120%;">PEESAPATI YASHASWINI </p>
+                <!--<p style="text-align:centre; font-size:120%;">IT A </p>
+                <p style="text-align:centre; font-size:120%;">2453-18-737-037</p>-->
+            </font>
+        </div>
+
+        <!--<h1>HELLO</h1>-->
+        <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+        <df-messenger
+          intent="WELCOME"
+          chat-title="JET_Care"
+          agent-id="c44cc753-dcfa-45ed-b44b-24f284caab29"
+          language-code="en"
+        ></df-messenger>

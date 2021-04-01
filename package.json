@@ -1,0 +1,28 @@
+{
+  "name": "micro_project",
+  "version": "1.0.0",
+  "main": "chatbot_v1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "actions-on-google": "^2.13.0",
+    "dialogflow": "^1.2.0",
+    "dialogflow-fulfillment": "^0.6.1",
+    "express": "^4.17.1",
+    "express.js": "^1.0.0",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.14",
+    "ngrok": "^3.4.0",
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7",
+    "randomstring": "^1.1.5",
+    "server": "^1.0.31"
+  },
+  "devDependencies": {},
+  "description": ""
+}
